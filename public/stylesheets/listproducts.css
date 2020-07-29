@@ -1,0 +1,17 @@
+.test:hover{
+    transform: scale(1.1);
+}
+
+.products{
+    transition: 200ms;
+}
+p {
+    text-align: center;
+}
+.desc.n {
+    font-size: 18px;
+}
+.desc.p {
+    color: red;
+    font-size: 16px;
+}

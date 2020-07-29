@@ -1,0 +1,61 @@
+body{
+    background-color: #f1f2f6;
+  
+  }
+
+  button.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid #EA2027;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+
+
+}
+.cantidad {
+  display: none
+}
+.border-0.align-middle.product-quantity {
+  display: none;
+}
+
+button.btn:hover {
+    background-color: #EA2027;
+    color: white;
+}
+
+@media(min-width: 1024px){
+  .img {
+    height: 20%;
+    width: 20%;
+  }
+  .cantidad {
+    display: block
+  }
+  .border-0.align-middle.product-quantity {
+    display: block;
+  }
+}
+
+.buttonfix{
+  width: 100%;
+}
+
+.cantidadNumerico{
+  height: 22%;
+  width: 27%;
+  background: white;
+  border: 0;
+}
+
+
+.subtitulo{
+color: rgb(223, 82, 0);
+}
+.fas.fa-trash {
+  font-size: 21px;
+  padding-bottom: 8px;
+}
+

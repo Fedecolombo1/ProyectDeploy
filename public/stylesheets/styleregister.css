@@ -1,0 +1,89 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+  margin: 0;
+  padding: 0;  
+  font-family: sans-serif ;
+  background-color: #f1f2f6;
+
+}
+
+
+.container-fluid h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 7px solid #EA2027;
+    margin-bottom: 15px;
+   
+    
+
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #EA2027;
+
+}
+
+.textbox i{
+    width: px;
+    float: left;
+    text-align: center;
+
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+    
+}
+
+.forgot-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid #EA2027;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+
+}
+
+.btn:hover {
+    background-color: #EA2027;
+    color: white;
+}
+
+.birthdate{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+@media (max-width: 425px){
+    
+    .table{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .container-fluid h1{
+        font-size: 25px;
+        border-bottom: 3px solid #EA2027;
+    }
+ }
